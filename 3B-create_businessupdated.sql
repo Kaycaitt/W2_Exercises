@@ -69,7 +69,7 @@ CREATE TABLE Customer_Transactions
     ProductID INT,
     CONSTRAINT fk3 FOREIGN KEY (CustomerID) REFERENCES Customer (CustomerID) ON DELETE RESTRICT ON UPDATE CASCADE,
     CONSTRAINT fk4 FOREIGN KEY (ProductID) REFERENCES Products (ProductID) ON DELETE RESTRICT ON UPDATE CASCADE
-    ); /*Table is created*/
+    ); /*Table has been REMOVED*/ 
     
 #Table for company products provided#
     
@@ -79,6 +79,5 @@ CREATE TABLE Products
     drinks VARCHAR (15) NOT NULL,
     apparel VARCHAR (10) NULL,
     gift_cards DECIMAL (3,0) NULL
-    ); /*Table has been created*/
-    
+    ); /*Table has been REMOVED*/ 
 
